@@ -1,0 +1,60 @@
+body{
+    font-family: ff-providence-sans-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.welcome{
+    font-size: 40px;
+    text-align: center;
+}
+
+.navbar{
+    background-color: #C0886A;
+    width:100%;
+}
+.logo{
+    width: 2em;
+    height: 2em;
+    margin:auto;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*styling the bottom icon tray*/
+.tray button{
+    color: #fff;
+    font-size: 1.3em;
+    padding:0 1em 0 1em;
+    margin-top: 8px;
+   
+}
+
+.tray{
+   margin: auto;
+}
+
+.tray button:active{
+   color: #78869E;
+}
+
+.tray button:visited{
+   color: #78869E;
+}
+
+.subscript{
+   font-size: 15px;
+}

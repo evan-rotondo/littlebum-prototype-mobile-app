@@ -1,0 +1,132 @@
+body{
+    font-family: ff-providence-sans-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.welcome{
+    font-size: 40px;
+    text-align: center;
+}
+
+.navbar{
+    background-color: #C0886A;
+    width:100%;
+}
+.logo{
+    width: 2em;
+    height: 2em;
+    margin:auto;
+    
+    
+    
+}
+
+.title{
+    margin:auto;
+    text-align: center;
+}
+
+.cart{
+    font-size: 30px;
+}
+
+.thumbnail{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ul{
+    list-style-type: none;
+    position: relative;
+    bottom: 80px;
+}
+
+/* container for total cost to be displayed*/
+.totalcost{
+    margin:auto;
+    background-color: #fff;
+    box-shadow: 2px 2px lightgray;
+    border: none;
+    color: #473F3B;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    cursor: pointer;
+    border-radius: 16px;
+    width:75%;
+    justify-content: center;
+      
+}
+
+/* positioning of elements within container for total cost*/
+.totalamount{
+    flex: 1;
+    margin: auto;
+}
+
+.finalcost{
+    flex:1;
+    margin: auto;
+}
+
+
+.finalpay{
+    margin:auto;
+    background-color: #fff;
+    box-shadow: 2px 2px lightgray;
+    border: none;
+    color: #473F3B;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 16px;
+    width:75%;
+    justify-content: center;
+    position: relative;
+    top:20px;
+}
+
+
+
+
+
+
+
+
+
+/*styling the bottom icon tray*/
+.tray button{
+     color: #fff;
+     font-size: 1.3em;
+     padding:0 1em 0 1em;
+     margin-top: 8px;
+    
+}
+
+.tray{
+    margin: auto;
+}
+
+.tray button:active{
+    color: #78869E;
+}
+
+.tray button:visited{
+    color: #78869E;
+}
+
+.subscript{
+    font-size: 15px;
+}
+
+
+
+.tray button a{
+    color:#fff;
+    text-decoration: none;
+}

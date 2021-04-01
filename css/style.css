@@ -1,0 +1,135 @@
+body{
+    font-family: ff-providence-sans-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.welcome{
+    font-size: 40px;
+    text-align: center;
+}
+
+.navbar{
+    background-color: #C0886A;
+    width:100%;
+}
+.logo{
+    width: 2em;
+    height: 2em;
+    margin:auto;
+    
+    
+    
+}
+
+
+
+.illustration{
+    margin:auto;
+    width:18em;
+    height:18em;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+/* this will be displayed with jQuery. will remain hidden initially*/
+.login-field{
+    margin-left: 35%;
+    width:50%;
+    height: fit-content;
+    position: relative;
+    bottom: 80px;
+    display:none;
+}
+
+.signup-field{
+    margin-left: 35%;
+    width:50%;
+    height: fit-content;
+    position: relative;
+    bottom: 80px;
+}
+
+/* these are all the elements contained in the login-field div below*/
+.name{
+    border:1px solid #473F3B;
+    text-align: center;
+    width:50%
+}
+
+.pass{
+    border:1px solid #473F3B;
+    text-align: center;
+    width: 50%;
+}
+
+.memory{
+    border:1px solid #473F3B;
+    width: 50%;
+    font-size: 10px;
+}
+
+.bi-circle{
+    position:absolute;
+    top:70%;
+    right: 90%;
+    color:#473F3B ;
+    
+}
+
+.remember-text{
+    position:relative;
+    text-align: center;
+    padding-left: 2px;
+    margin-top:14px;
+    margin-left: 10px;
+    color: #473F3B;
+    opacity: 90%;
+}
+
+/* login and sign up button style and positioning */
+.logbutton{
+    margin: auto;
+    display:table;
+    position: relative;
+    bottom: 70px;
+    right:10px;
+    font-size: 12px;
+}
+    
+.login{
+    text-decoration: underline;
+}
+
+
+.signbutton{
+    margin:auto;
+    display:table;
+    position:relative;
+    bottom: 70px;
+    right:10px;
+    font-size: 12px;
+}
+
+
+.signup{
+    text-decoration: underline;
+}
+
+/* enter button style and positioning */
+.enterbutton{
+    margin:auto;
+    position: relative;
+    right:20px;
+}
+
+
+
+.proceed{
+    color:#fff;
+}
+
+a:active {
+    color: #78869E;
+    text-decoration: underline;
+}
