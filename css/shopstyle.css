@@ -58,3 +58,8 @@ body{
 .subscript{
    font-size: 15px;
 }
+
+.tray button a{
+    color:#fff;
+    text-decoration: none;
+}
