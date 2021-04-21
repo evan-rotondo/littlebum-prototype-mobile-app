@@ -4,6 +4,10 @@ body{
     font-style: normal;
 }
 
+.content{
+    padding-bottom:150px;
+}
+
 .banner-nav{
     position:fixed;
 }
@@ -91,6 +95,7 @@ body{
 .description{
     text-align: center;
     font-size: 14px;
+    
 }
 
 .price{
@@ -120,7 +125,7 @@ body{
 
 .basket{
     position:relative;
-    
+    padding-bottom: 130px;
     text-align: center;
 }
 
