@@ -1,0 +1,134 @@
+body{
+    font-family: ff-providence-sans-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.banner-nav{
+    position:fixed;
+}
+
+.welcome{
+    font-size: 40px;
+    text-align: center;
+}
+
+.navbar{
+    background-color: #C0886A;
+    width:100%;
+}
+.logo{
+    width: 2em;
+    height: 2em;
+    margin:auto;
+    
+    
+    
+}
+
+
+    
+
+
+.tutorials{
+   font-size: 20px;
+   margin: auto;
+   text-align: center;
+   
+}
+
+
+
+.text{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.carousel{
+    height:225px;
+    width:100%;
+    margin:auto;
+}
+
+/*this is the styling for the event listing and sign up area*/
+.events{
+    margin:auto;
+    text-align: center;
+    font-size:20px;
+}
+
+/*this is the styling for the events and signup area specifically*/
+.listings{
+    height:700px;
+    
+    
+}
+
+.upcoming{
+    width:75%;
+   
+}
+.signup{
+    width:25%;
+    
+    
+}
+
+.banner{
+    text-align: center;
+    border: #473F3B 0.5px solid;
+
+}
+
+.activity{
+    text-align: center;
+}
+
+.confirm{
+    margin:auto;
+    text-align: center;
+    
+}
+
+.w-100{
+    padding-bottom: 25px;
+}
+
+.confirm btn bi-circle-fill:hover{
+    color:chartreuse;
+}
+
+
+
+
+
+/*styling the bottom icon tray*/
+.tray button{
+     color: #fff;
+     font-size: 1.3em;
+     padding:0 1em 0 1em;
+     margin-top: 8px;
+    
+}
+
+.tray{
+    margin: auto;
+}
+
+
+
+.subscript{
+    font-size: 15px;
+}
+
+
+
+.tray button a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.footer{
+    position:fixed;
+}

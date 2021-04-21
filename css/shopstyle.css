@@ -22,11 +22,52 @@ body{
     
 }
 
+.title{
+    margin:auto;
+    text-align: center;
+}
 
+.shop{
+    font-size: 30px;
+}
 
+.card{
+    width:50%;
+    border: none;
+    box-shadow: 2px 2px lightgray;
+}
 
+.card-img{
 
+    height:220px;
 
+}
+
+.card-title{
+    color: #473F3B ;
+    position:relative;
+    top:170px;
+    text-align: center;
+}
+
+.honeys{
+    text-decoration: none;
+    color: #473F3B ;
+}
+
+.row1{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.row2{
+    margin-left:2%;
+    margin-right: 2%;
+}
+
+h5 a:active{
+    color:#fff;
+}
 
 
 
@@ -63,3 +104,4 @@ body{
     color:#fff;
     text-decoration: none;
 }
+

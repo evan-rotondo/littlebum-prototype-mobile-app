@@ -1,0 +1,182 @@
+body{
+    font-family: ff-providence-sans-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.banner-nav{
+    position:fixed;
+}
+
+.welcome{
+    font-size: 40px;
+    text-align: center;
+}
+
+.navbar{
+    background-color: #C0886A;
+    width:100%;
+}
+.logo{
+    width: 2em;
+    height: 2em;
+    margin:auto;
+    
+    
+    
+}
+
+
+/* styling the haeder here*/
+.title{
+    margin:auto;
+    text-align: center;
+}
+
+.honeys{
+    font-size: 30px;
+}
+
+
+
+.text{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+
+.hero{
+ width:100%;  
+ margin: auto; 
+}
+
+.card{
+    border: none;
+}
+
+
+.carousel{
+    height:100px;
+    width:auto;
+    margin:auto;
+}
+
+
+/*making sure these links cooperate properly, no underlines etc.*/
+.selection{
+    margin:auto;
+    text-align: center;
+    font-size:22px;
+    color: #473F3B;
+    text-decoration: none;
+}
+
+.selection a{
+    color: #473F3B;
+    text-decoration: none;
+}
+
+.single a{
+    color:#473F3B;
+    text-decoration: none;
+}
+
+.single:active{
+    color: #473F3B;
+}
+
+
+/* keeping description and price sized correctly here, as well as positioned. trying to keep room for quantity and add to cart*/
+.description{
+    text-align: center;
+    font-size: 14px;
+}
+
+.price{
+    text-align: center;
+    font-size: 12px;
+}
+
+/*styling for quantoty and add to cart*/
+.tabs{
+    margin:auto;
+    background-color: #fff;
+    box-shadow: 2px 2px lightgray;
+    border: none;
+    color: #473F3B;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 16px;
+    width:100%;
+    justify-content: center;
+    position: relative;
+    top:20px;
+    font-size: 12px;
+}
+
+.basket{
+    position:relative;
+    
+    text-align: center;
+}
+
+.quantity{
+    margin:auto;
+    text-align: center;
+}
+
+.addcart{
+    margin:auto;
+}
+
+.tabs:hover{
+    background-color: #78869E;
+    color: #fff;
+}
+
+.purchase{
+    text-decoration: none;
+    color:#473F3B;
+
+}
+
+.purchase:hover{
+    
+    color: #78869E;
+}
+
+
+
+/*styling the bottom icon tray*/
+.tray button{
+     color: #fff;
+     font-size: 1.3em;
+     padding:0 1em 0 1em;
+     margin-top: 8px;
+    
+}
+
+.tray{
+    margin: auto;
+}
+
+
+
+.subscript{
+    font-size: 15px;
+}
+
+
+
+.tray button a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.footer{
+    position:fixed;
+}

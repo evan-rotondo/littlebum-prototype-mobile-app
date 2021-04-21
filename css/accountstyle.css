@@ -27,55 +27,16 @@ body{
     text-align: center;
 }
 
-.cart{
+.account{
     font-size: 30px;
 }
 
-
-
-.thumbnail{
-    max-width: 100%;
-    max-height: 100%;
-}
-
-ul{
-    list-style-type: none;
-    position: relative;
-    bottom: 80px;
-}
-
-/* container for total cost to be displayed*/
-.totalcost{
-    margin:auto;
-    background-color: #fff;
+.card-img-top{
     box-shadow: 2px 2px lightgray;
-    border: none;
-    color: #473F3B;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    
-    cursor: pointer;
-    border-radius: 16px;
-    width:75%;
-    justify-content: center;
-      
 }
 
-/* positioning of elements within container for total cost*/
-.totalamount{
-    flex: 1;
-    margin: auto;
-}
-
-.finalcost{
-    flex:1;
-    margin: auto;
-}
-
-
-.finalpay{
+/* 'tabs' is the css styling for the buttons on this page*/
+.tabs{
     margin:auto;
     background-color: #fff;
     box-shadow: 2px 2px lightgray;
@@ -87,13 +48,17 @@ ul{
     display: inline-block;
     cursor: pointer;
     border-radius: 16px;
-    width:75%;
+    width:80%;
     justify-content: center;
     position: relative;
     top:20px;
 }
 
-.finalpay:hover{
+.bi-chevron-right{
+    margin-left:30%;
+}
+
+.tabs:hover{
     background-color: #78869E;
     color: #fff;
 }
@@ -118,13 +83,7 @@ ul{
     margin: auto;
 }
 
-.tray button:active{
-    color: #78869E;
-}
 
-.tray button:visited{
-    color: #78869E;
-}
 
 .subscript{
     font-size: 15px;

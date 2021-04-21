@@ -19,7 +19,7 @@
 
 
 
-    <title>mobile app prototype</title>
+    <title>mobile app prototype--home page</title>
   </head>
   <body>
     
@@ -34,12 +34,12 @@
             </button>
             
             <div id="logo" class="logo">    
-                <img src="img/logo.svg" class="top-logo" alt="logo">
+                <img src="./img/logo.svg" class="top-logo" alt="logo">
             </div>
             
 
         <!-- thinking about making the search button a 'popover' and pop down under the nav bar at the top -->
-            <button class="btn btn-outline-none" data-container="body" data-toggle="popover" data-placement="bottom">
+            <button type="button" class="btn btn-outline-none" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom">
                 <i class="bi bi-search text-white"></i>
             </button>
             
@@ -58,7 +58,7 @@
     </h1> 
     
     <div id="illustration" class="illustration">
-        <img src="img/illustration.svg" class="hero" alt="hero">
+        <img src="./img/illustration.svg" class="hero" alt="hero">
     </div>
 
 
@@ -98,11 +98,11 @@
     
 <!-- log in and sign up buttons -->
     <div id="logbutton" class="logbutton">
-        <button id="login" class="btn login">log in</button>
+        <button id="login" class="btn login"><a class="user" href="account.html">log in</button>
     </div>
 
     <div id="signbutton" class="signbutton">
-        <button id="signup" class="btn signup">sign up</button>
+        <button id="signup" class="btn signup"><a class="user" href="account.html">sign up</button>
     </div>
     
  </div>

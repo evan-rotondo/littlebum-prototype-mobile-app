@@ -30,6 +30,7 @@ body{
     height:18em;
     padding-left: 50px;
     padding-top: 30px;
+    
 }
 
 /* this will be displayed with jQuery. will remain hidden initially*/
@@ -132,4 +133,8 @@ body{
 a:active {
     color: #78869E;
     text-decoration: underline;
+}
+
+.user{
+    color:#473F3B;
 }
